@@ -1,0 +1,27 @@
+$margin-auto: 0 auto;
+$font: Arial, Helvetica, sans-serif;
+$display: flex;
+$position: fixed;
+html,body{
+   margin: $margin-auto;
+   font-family: $font;
+    height:100vh;
+    overflow: auto;
+    }
+    
+    content{
+        display: $display;
+        position: $position;
+        margin: $margin-auto;
+        padding: 30px;
+    }
+    form{
+        margin: 50px;
+    }
+    
+    footer{
+        clear: both;
+        position: $position;
+        width: 100%;
+        margin-top:auto;
+    }
